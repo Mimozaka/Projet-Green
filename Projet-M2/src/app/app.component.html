@@ -1,0 +1,133 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[0]" alt="Random first slide" class="img-fluid">
+    </div>
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[1]" alt="Random second slide" class="img-fluid">
+    </div>
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="picsum-img-wrapper">
+      <img [src]="images[2]" alt="Random third slide" class="img-fluid">
+    </div>
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<div class="container">
+  <div class="row">
+      <div class="col-xs-12">
+        <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, 
+          et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. 
+          Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. 
+          De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, 
+          et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. 
+          Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement 
+          (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
+        </p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12">
+         <p>Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test Test
+          Test Test Test Test Test TestTest Test Test Test Test TestTest Test Test Test Test TestTest Test Test Test Test Test
+        </p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/arctic-wolf-5961985_1920.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Section 1</h5>
+            <p class="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+              Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/bird-5965265_1920.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Section 2</h5>
+            <p class="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+              Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="../assets/forest-5855196_1920.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Section 3</h5>
+            <p class="card-text">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
+              Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500,</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-xs-12">
+        <p>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, 
+          et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. 
+          Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. 
+          De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, 
+          et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. 
+          Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement 
+          (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
+        </p>
+      </div>
+  </div>
+</div>
+
+<footer>
+  <div class="row">
+    <div class="col-lg-4">
+      <img src="../assets/Sans titre.png" alt="logo" class="img-fluid">
+    </div>
+    <div class="col-lg-5">
+      <ul>
+        <li>Accueil</li>
+        <li>Qui sommes nous</li>
+        <li>Notre solution</li>
+        <li>Rejoingez nous</li>
+      </ul>
+    </div>
+    <div class="col-lg-3"></div>
+    <div class="col-xs-12"> <p> LE NOM DU PROJET © 2020. Tous droits réservés</p></div>
+  </div>
+</footer>
